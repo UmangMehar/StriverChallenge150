@@ -24,10 +24,8 @@ public class RemoveDuplicates {
 
         sc.close();
     }
-
     static int removeDuplicates(int[] arr) {
         if (arr.length == 0) return 0;
-
         int i = 0;
         for (int j = 1; j < arr.length; j++) {
             if (arr[i] != arr[j]) {
